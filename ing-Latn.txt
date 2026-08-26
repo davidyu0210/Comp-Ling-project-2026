@@ -1,10 +1,12 @@
 0 -> ˈ / # _
 ˈ- -> - / # _
+
 % Word-final -st and -lt
-st -> stɑ / [ɑo] _ #
-lt -> ltɑ / [ɑo] _ #
-st -> stæ / [æe] _ #
-lt -> ltæ / [æe] _ #
+st -> stɑ / (ɑ|o) _ #
+st -> stɑ / (u|i) _ #
+lt -> ltɑ / (ɑ|o|u|i) _ #
+st -> stæ / (æ|e) _ #
+lt -> ltæ / (æ|e) _ #
 
 % Word-final -l
 l -> lːɑ / ɑ _ #
@@ -13,11 +15,11 @@ l -> lːæ / æ _ #
 l -> lːæ / e _ #
 l -> lːæ / y _ #
 
-l -> lːɑ / ɑː _ #
-l -> lːe / iː _ #
-l -> lːæ / æː _ #
-l -> lːɑ / eː _ #
-l -> lːæ / yː _ #
+ːl -> lːɑ / ɑ _ #
+ːl -> lːe / i _ #
+ːl -> lːæ / æ _ #
+ːl -> lːɑ / e _ #
+ːl -> lːæ / y _ #
 
 % Word-final -ks and -mp
 ks -> kse / _ #
@@ -28,7 +30,9 @@ in -> ine / æ _ #
 in -> ine / ɑ _ #
 in -> ine / o _ #
 in -> ine / i _ #
-iːn -> ine/ _ #
+iːn -> ine / _ #
+ine -> in / t(o|ø) _ #
+
 
 % Nasal assimilation
 n -> ŋ / _ k
