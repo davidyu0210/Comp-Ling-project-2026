@@ -1,0 +1,47 @@
+0 -> ˈ / # _
+ˈ- -> - / # _
+% Word-final -st and -lt
+st -> stɑ / [ɑo] _ #
+lt -> ltɑ / [ɑo] _ #
+st -> stæ / [æe] _ #
+lt -> ltæ / [æe] _ #
+
+% Word-final -l
+l -> lːɑ / ɑ _ #
+l -> lːe / i _ #
+l -> lːæ / æ _ #
+l -> lːæ / e _ #
+l -> lːæ / y _ #
+
+l -> lːɑ / ɑː _ #
+l -> lːe / iː _ #
+l -> lːæ / æː _ #
+l -> lːɑ / eː _ #
+l -> lːæ / yː _ #
+
+% Word-final -ks and -mp
+ks -> kse / _ #
+mp -> mpi / _ #
+
+% Word-final -in → -ine (morphological)
+in -> ine / æ _ #
+in -> ine / ɑ _ #
+in -> ine / o _ #
+in -> ine / i _ #
+iːn -> ine/ _ #
+
+% Nasal assimilation
+n -> ŋ / _ k
+n -> ŋ / _ ɡ
+
+% ts -> t͡s
+ts -> t͡s / _
+
+% h deletion after r and n
+h -> 0 / r _
+h -> 0 / n _
+
+% Non-syllabic vowels
+i -> i̯ / (ɑ|e|o|i|u|æ|ø|ɨ|y) _
+u -> u̯ / (ɑ|e|o|i|u|æ|ø|ɨ|y) _
+y -> y̯ / (ɑ|e|o|i|u|æ|ø|ɨ|y) _

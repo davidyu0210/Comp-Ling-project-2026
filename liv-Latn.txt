@@ -1,0 +1,11 @@
+::consonants:: = b|c|d|f|g|h|j|k|l|m|n|p|r|s|t|v|z|ž|š|ļ|ņ|ț|ḑ|ŗ
+::letters:: = a|e|i|o|u|ā|ē|ī|ō|ū|y|ü|ä|õ|ǭ|ȭ|ǟ|ȯ|ȱ|b|c|d|f|g|h|j|k|l|m|n|p|r|s|t|v|z|ž|š|ļ|ņ|ț|ḑ|ŗ
+
+0 -> ˈ / # _
+ˈ -> 0 / _ (::letters::)#
+
+
+
+
+ə -> ɯ / ˈ _
+ə -> ɯ / ˈ(::consonants::) _

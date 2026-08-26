@@ -1,0 +1,89 @@
+% Palatalization
+
+0 -> ʲ / (l|d|n|s|t) _ (i|y|e|ø|æ)
+0 -> ʲ / (z|s) _ i
+s -> sʲ / _ tʲ
+
+
+% Palatalize geminated consonants before some vowels
+sː -> sʲː / _ (i|y|e|ø|æ)
+tː -> tʲː / _ (i|y|e|ø|æ)
+nː -> nʲː / _ (i|y|e|ø|æ)
+dː -> dʲː / _ (i|y|e|ø|æ)
+lː -> lʲː / _ i
+zː -> zʲː / _ i
+
+ʲ -> 0 / ʲ _
+
+% I do not know why this might be. There are only two instances and both do this. (I didn't implement any exceptions rules if they only occurred once/inconsistently)
+nʲ -> n / _ eʃ
+
+% Gemination
+b -> ː / b _
+c -> ː / c _
+d -> ː / d _
+f -> ː / f _
+ɡ -> ː / ɡ _
+h -> ː / h _
+j -> ː / j _
+k -> ː / k _
+l -> ː / l _
+m -> ː / m _
+n -> ː / n _
+p -> ː / p _
+r -> ː / r _
+s -> ː / s _
+t -> ː / t _
+ʋ -> ː / ʋ _
+z -> ː / z _
+ʃ -> ː / ʃ _
+t͡ʃ -> ː / t͡ʃ _
+ʒ -> ː / ʒ _
+æ -> ː / æ _
+e -> ː / e _
+i -> ː / i _
+o -> ː / o _
+ø -> ː / ø _
+u -> ː / u _
+y -> ː / y _
+ɑ -> ː / ɑ _
+nʲ -> ː / nʲ _
+lʲ -> ː / lʲ _
+tʲ -> ː / tʲ _
+
+% Desyllabification
+i -> i̯ / (ɑ|æ|e|i|o|ø|u|y) _
+y -> y̯ / (ɑ|æ|e|i|o|ø|u|y) _
+u -> u̯ / (ɑ|æ|e|i|o|ø|u|y) _
+e -> e̯ / (ɑ|æ|e|i|o|ø|u|y) _
+ø -> ø̯ / (ɑ|æ|e|i|o|ø|u|y) _
+o -> o̯ / (ɑ|æ|e|i|o|ø|u|y) _
+æ -> æ̯ / (ɑ|æ|e|i|o|ø|u|y) _
+ɑ -> ɑ̯ / (ɑ|æ|e|i|o|ø|u|y) _
+
+% primary stress
+0 -> ˈ / # _
+
+% Velarization
+n -> ŋ / _ (ɡ|k)
+
+
+% instances of triple-vowel sequences, have to manually correct (difference between them is due to the order in which I desyllabified earlier)
+ui̯æ -> uiæ̯ / _
+uɑ̯i̯ -> uɑ̯i / _
+
+%weird behavior with palatization
+tʲ -> t / (ɑ̯|æ̯|e̯|i̯|o̯|ø̯|u̯|y̯) _
+dʲ -> d / (ɑ̯|æ̯|e̯|i̯|o̯|ø̯|u̯|y̯) _
+
+% fixes weird errors in previous rules
+ːʲ -> ʲː / _
+
+% indicate it is single affricate sound
+dʒ -> d͡ʒ / _
+
+
+lɡ -> lʲɡ / _
+
+% irrelevant symbol
+- -> 0 / _
