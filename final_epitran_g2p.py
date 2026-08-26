@@ -22,7 +22,11 @@ for j in range(len(words_list)):
 
     # Use Epitran to transcribe the word
     output = epi.transliterate(word)
+    
+    # ONLY FOR INGRIAN AND KARELIAN (I made a mistake and this is the easiest way to fix it)
     output = "/" + output + "/"
+    
+    # print all errors
     if output != correct:
         print(output, correct)
 
