@@ -5,10 +5,10 @@ predictions = []
 references = []
 
 # Initialize Epitran (replace 'xxx-Latn' with your language code)
-epi = epitran.Epitran('kar-Latn')
+epi = epitran.Epitran('krl-Latn')
 
 skip_count = 0
-df = pd.read_csv("kar-norm.csv")
+df = pd.read_csv("krl-norm.csv")
 words_list = df["word"].to_list()
 correct_list = df["transcription"].to_list()
 
