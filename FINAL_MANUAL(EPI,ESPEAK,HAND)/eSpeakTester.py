@@ -10,8 +10,8 @@ for file in files:
 
     #Reads file and makes a list for orthography and IPA
     df=pd.read_csv(file+'.csv')
-    orthography_list=df["orthography"].to_list()
-    reference=df["ipa"].to_list()
+    orthography_list=df["word"].to_list()
+    reference=df["transcription"].to_list()
 
     print('\n'+file+'\n')
 
