@@ -56,7 +56,7 @@ def apply_stress(word):
 def velarization(word):
     word = list(word)
     for i in range(len(word)-1):
-        if word[i] == "n" and word[i+1] == "ɡ":
+        if word[i] == "n" and (word[i+1] == "ɡ" or word[i+1] == "k"):
             word[i] = "ŋ"
     word = ''.join(word)
     return word
