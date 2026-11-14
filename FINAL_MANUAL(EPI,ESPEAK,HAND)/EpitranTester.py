@@ -4,7 +4,7 @@ import epitran
 predictions = []
 references = []
 
-epi = epitran.Epitran('est-Latn') #Epitran module (pre + map + post) to use
+epi = epitran.Epitran('est-Latn') #Epitran module (pre + map + post) to use. For example this calls the Estonian G2P files from Epitran
 df = pd.read_csv("krl-final.csv") #file to read from
 word_list = df["word"].to_list()
 correct_list = df["transcription"].to_list()
